@@ -1,0 +1,85 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-44" mainComp="false" Show_id="true" Show_Val="false" Pos="-12,-436" rotation="0" hflip="1" vflip="1" label="Processing MCU" idLabPos="51.9557,-17.6102" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="44_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="44_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" varList="ADCH/0x0079/u8,UDR0/0x00C6/u8,ADCL/0x0078/u8" Frequency="16 MHz" Program="D:/EMP/CPU/bin/CPU.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Subcircuit" CircId="Uno-45" mainComp="false" Show_id="true" Show_Val="false" Pos="472,-440" rotation="0" hflip="1" vflip="1" label="HMI" idLabPos="67.8435,-23.5741" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="45_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="45_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="D:/EMP/Interface/bin/Interface.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-55" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-588" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-55" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Push" CircId="Push-56" mainComp="false" Show_id="false" Show_Val="false" Pos="236,-588" rotation="0" hflip="1" vflip="1" label="Push-56" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-69" mainComp="false" Show_id="false" Show_Val="false" Pos="704,-504" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-69" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Servo" CircId="Servo-74" mainComp="false" Show_id="true" Show_Val="false" Pos="344,-172" rotation="-270" hflip="1" vflip="1" label="Servo-74" idLabPos="45,18" labelrot="-90" valLabPos="-16,20" valLabRot="0" Speed="0.2 _sec/60º" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" />
+
+<item itemtype="Ground" CircId="Ground-76" mainComp="false" Show_id="false" Show_Val="false" Pos="344,-252" rotation="-180" hflip="1" vflip="1" label="Ground-76" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-78" mainComp="false" Show_id="false" Show_Val="false" Pos="360,-244" rotation="90" hflip="1" vflip="1" label="Fixed Voltage-78" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="AudioOut" CircId="AudioOut-98" mainComp="false" Show_id="false" Show_Val="false" Pos="572,-148" rotation="0" hflip="1" vflip="1" label="AudioOut-98" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="8 Ω" />
+
+<item itemtype="Ground" CircId="Ground-99" mainComp="false" Show_id="false" Show_Val="false" Pos="536,-128" rotation="0" hflip="1" vflip="1" label="Ground-99" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Push" CircId="Push-118" mainComp="false" Show_id="false" Show_Val="false" Pos="236,-556" rotation="0" hflip="1" vflip="1" label="Push-118" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-119" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-556" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-119" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-123" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-524" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-123" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Push" CircId="Push-124" mainComp="false" Show_id="false" Show_Val="false" Pos="236,-524" rotation="0" hflip="1" vflip="1" label="Push-124" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Led" CircId="Led-206" mainComp="false" Show_id="false" Show_Val="false" Pos="192,-380" rotation="0" hflip="1" vflip="1" label="Led-206" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-207" mainComp="false" Show_id="false" Show_Val="false" Pos="212,-388" rotation="0" hflip="1" vflip="1" label="Led-207" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-208" mainComp="false" Show_id="false" Show_Val="false" Pos="232,-396" rotation="0" hflip="1" vflip="1" label="Led-208" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="WaveGen" CircId="WaveGen-293" mainComp="false" Show_id="true" Show_Val="false" Pos="232,-420" rotation="-180" hflip="1" vflip="1" label="Random Wave Gen" idLabPos="28.8485,27.4958" labelrot="-180" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Random" Freq="50 kHz" Steps="100 _Steps" Duty="41 _%" Always_On="true" Semi_Ampli="2.5 V" Mid_Volt="2.5 V" />
+
+<item itemtype="Connector" uid="connector-294" startpinid="Uno-45-1" endpinid="Uno-44-0" pointList="480,-416,448,-416,448,-468,-44,-468,-44,-420,-4,-420" />
+
+<item itemtype="Connector" uid="connector-295" startpinid="Fixed Voltage-55-outnod" endpinid="Push-56-pinP0" pointList="196,-588,220,-588" />
+
+<item itemtype="Connector" uid="connector-296" startpinid="Uno-45-0" endpinid="Uno-44-1" pointList="480,-424,480,-480,-60,-480,-60,-412,-4,-412" />
+
+<item itemtype="Connector" uid="connector-297" startpinid="Push-56-switch0pinN" endpinid="Uno-45-2" pointList="252,-588,408,-588,408,-408,480,-408" />
+
+<item itemtype="Connector" uid="connector-298" startpinid="7-Seg BCD-69-in0" endpinid="Uno-45-A0" pointList="716,-472,716,-384,624,-384" />
+
+<item itemtype="Connector" uid="connector-299" startpinid="7-Seg BCD-69-in1" endpinid="Uno-45-A1" pointList="708,-472,708,-392,624,-392" />
+
+<item itemtype="Connector" uid="connector-300" startpinid="7-Seg BCD-69-in2" endpinid="Uno-45-A2" pointList="700,-472,700,-400,624,-400" />
+
+<item itemtype="Connector" uid="connector-301" startpinid="7-Seg BCD-69-in3" endpinid="Uno-45-A3" pointList="692,-472,692,-408,624,-408" />
+
+<item itemtype="Connector" uid="connector-302" startpinid="Fixed Voltage-78-outnod" endpinid="Servo-74-in0" pointList="360,-228,360,-220" />
+
+<item itemtype="Connector" uid="connector-303" startpinid="Ground-76-Gnd" endpinid="Servo-74-in1" pointList="344,-236,344,-220" />
+
+<item itemtype="Connector" uid="connector-304" startpinid="Ground-99-Gnd" endpinid="AudioOut-98-rPin" pointList="536,-144,536,-148,556,-148" />
+
+<item itemtype="Connector" uid="connector-305" startpinid="Fixed Voltage-119-outnod" endpinid="Push-118-pinP0" pointList="196,-556,220,-556" />
+
+<item itemtype="Connector" uid="connector-306" startpinid="Push-118-switch0pinN" endpinid="Uno-45-3" pointList="252,-556,376,-556,376,-400,480,-400" />
+
+<item itemtype="Connector" uid="connector-307" startpinid="Fixed Voltage-123-outnod" endpinid="Push-124-pinP0" pointList="196,-524,220,-524" />
+
+<item itemtype="Connector" uid="connector-308" startpinid="Push-124-switch0pinN" endpinid="Uno-45-8" pointList="252,-524,344,-524,344,-352,480,-352" />
+
+<item itemtype="Connector" uid="connector-309" startpinid="Led-206-lPin" endpinid="Uno-44-A0" pointList="176,-380,140,-380" />
+
+<item itemtype="Connector" uid="connector-310" startpinid="Led-207-lPin" endpinid="Uno-44-A1" pointList="196,-388,140,-388" />
+
+<item itemtype="Connector" uid="connector-311" startpinid="Led-208-lPin" endpinid="Uno-44-A2" pointList="216,-396,140,-396" />
+
+<item itemtype="Connector" uid="connector-313" startpinid="Uno-45-9" endpinid="Servo-74-in2" pointList="480,-344,328,-344,328,-220" />
+
+<item itemtype="Connector" uid="connector-314" startpinid="WaveGen-293-outnod" endpinid="Uno-44-A5" pointList="216,-420,140,-420" />
+
+<item itemtype="Connector" uid="connector-312" startpinid="Uno-45-11" endpinid="AudioOut-98-lPin" pointList="480,-328,452,-328,452,-156,556,-156" />
+
+</circuit>
