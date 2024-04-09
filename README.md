@@ -32,10 +32,10 @@ Functionality:
     User presses "Generate" button.
     HMI MCU sends a request to the processing MCU to generate a random number.
     Processing MCU acknowledges the request with LEDs (1 second intervals).
-    Processing MCU generates a random number, sends it back to HMI MCU, and turns on a third LED (1 second). All LEDs turn off after another second. If communication fails, processing MCU's LEDs toggle for 5 seconds (500ms interval).
+    Processing MCU generates a random number, sends it back to HMI MCU, and turns on a third LED (1 second). All LEDs turn off after another second. If communication fails, processing MCU's LEDs toggle for      5 seconds (500ms interval).
     HMI MCU receives the number, displays it digit by digit on the 5 LEDs (each digit for 1 second).
-        The buzzer plays a sound with a duty cycle based on the digit value (value / 10).
-        After displaying all digits, the buzzer plays a sound with a duty cycle based on the entire random number (number / 65535).
+    The buzzer plays a sound with a duty cycle based on the digit value (value / 10).
+    After displaying all digits, the buzzer plays a sound with a duty cycle based on the entire random number (number / 65535).
     The servo motor moves to a position determined by the random number modulo 180 (over 5 seconds).
     "Next" and "Previous" buttons allow users to navigate through displayed digits quickly.
     Pressing "Generate" during an ongoing process cancels the current task and starts a new generation.
